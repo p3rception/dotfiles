@@ -1,0 +1,21 @@
+# System files
+.DS_Store
+
+# Text editor & IDE files
+.vscode/
+.idea/
+.sublime/cache/
+
+# Logs and temporary files
+logs
+*.log
+*.log.*
+*.tmp
+
+/node_modules
+node_modules/
+
+# Environment Configuration
+venv
+.venv
+.env

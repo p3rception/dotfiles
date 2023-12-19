@@ -1,0 +1,27 @@
+[core]
+	excludesfile = ~/.gitignore_global
+[commit]
+	template = ~/.gitCommitMsg
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+[user]
+	name = dimitris-per
+	email = dim.pergel@gmail.com
+[github]
+	user = p3rception
+[init]
+	defaultBranch = main
+[push]
+	default = upstream	
+[alias]
+	ac = !git add -A && git commit
+	a = add
+	s = status
+	b = branch
+	l = log --oneline --graph
+	uncommit = reset --soft "HEAD^"
+	unstage = reset
+

@@ -57,5 +57,5 @@ The starship format is $os_icon // $username // $hostname // $path // $git_statu
 ![](/screenshots/path.png)
 ![](/screenshots/git_python.png)
 ![](/screenshots/ls.png)
-![](/screenshots/ls.png)
+![](/screenshots/htop.png)
 ![](/screenshots/neofetch.png)

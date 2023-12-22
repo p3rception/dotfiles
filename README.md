@@ -53,7 +53,6 @@ The terminal I use in macOS devices.
 ## Showcase 
 The starship format is $os_icon // $username // $hostname // $path // $git_status (when used) // $python_version (when used)
 
-![](/screenshots/home_dir.png)
 ![](/screenshots/path.png)
 ![](/screenshots/git_python.png)
 ![](/screenshots/ls.png)

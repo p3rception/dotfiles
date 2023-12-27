@@ -63,6 +63,12 @@ Mozilla Firefox provides the ability to fully customise your browser using custo
 3. Click on folder containing all core Firefox files
 4. Paste the entire "chrome" folder from this repository and restart Firefox.
 
+### Acknowledgements
+- https://github.com/zvuc/firefox-macos-native-tabbar
+- https://github.com/datguypiko/Firefox-Mod-Blur
+- https://github.com/dannycandle/FluidFox
+- https://github.com/Hann8n/Atom-for-Firefox
+
 ### My theme
 - Fully transparent and transluscent.
 - White sub-pixel border for the url-bar and the active tab.

@@ -64,3 +64,9 @@ Mozilla Firefox provides the ability to fully customise your browser using custo
 4. Paste the entire "chrome" folder from this repository and restart Firefox.
 
 ### Showcase
+- Fully transparent and transluscent.
+- White sub-pixel border for the url-bar and the active tab.
+- Centered url-bar text.
+- Brave Browser Icons (all [available](/firefoxcss/chrome/brave-icons/), not all used). 
+
+![](/screenshots/firefox.png)

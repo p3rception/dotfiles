@@ -1,0 +1,20 @@
+@media (prefers-color-scheme: light) {
+  :root {
+    --backgroundpic: url(wallpapers/FF-Blur-Light.png);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --backgroundpic: url(wallpapers/FF-Blur-Dark.png);
+  }
+}
+
+@-moz-document url-prefix(about:home), url-prefix(about:newtab) { 
+  body {
+    background: var(--backgroundpic) !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+    background-position: center center !important;
+  }
+}

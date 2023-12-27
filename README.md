@@ -63,7 +63,7 @@ Mozilla Firefox provides the ability to fully customise your browser using custo
 3. Click on folder containing all core Firefox files
 4. Paste the entire "chrome" folder from this repository and restart Firefox.
 
-### Showcase
+### My theme
 - Fully transparent and transluscent.
 - White sub-pixel border for the url-bar and the active tab.
 - Centered url-bar text.

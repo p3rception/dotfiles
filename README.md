@@ -67,6 +67,6 @@ Mozilla Firefox provides the ability to fully customise your browser using custo
 - Fully transparent and transluscent.
 - White sub-pixel border for the url-bar and the active tab.
 - Centered url-bar text.
-- Brave Browser Icons (all [available](/firefoxcss/chrome/brave-icons/), not all used). 
+- Brave Browser (and some Safari) Icons (all [available](/firefoxcss/chrome/brave-icons/), not all used). 
 
 ![](/screenshots/firefox.png)

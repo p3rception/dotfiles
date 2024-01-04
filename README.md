@@ -1,3 +1,6 @@
+![](screenshots/colors-spoiler.png)
+<hr>
+
 This contains most of my personal config files. Here you'll find configs, customizations, themes, and whatever I need to personalize my Linux and macOS experience. 
 
 ## TOC

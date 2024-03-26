@@ -40,6 +40,11 @@ The terminal I use in macOS devices.
 
 * [p3rception.itermcolors](/p3rception.itermcolors) | Colors config for iTerm2.
 
+## Colors - Hex codes
+Hex codes of the terminal colors I use so you can apply them on any app.
+
+* [colors.yml](/colors.yml)
+
 ## Terminal Showcase 
 The starship format is $os_icon // $username // $hostname // $path // $git_status (when used) // $python_version (when used)
 

@@ -9,7 +9,6 @@ This contains most of my personal config files. Here you'll find configs, custom
 - [starship](#starship)
 - [iTerm2](#iterm2)
 - [Terminal Showcase](#terminal-showcase)
-- [FirefoxCSS](#firefoxcss)
 
 ## zsh
 * [.zshrc](/.zshrc) | Config file for ZSH.

@@ -19,10 +19,6 @@ alias top='htop'
 
 alias dnslookup="dig +noall +answer"
 
-alias firefox='cd /Users/per/Library/Application\ Support/Firefox/Profiles/k67c1l06.Personal/chrome'
-alias code="open -a 'Visual Studio Code'"
-alias esh='python3 /Users/per/Coding/explainsh/explainsh.py'    #HIDE
-
 alias ga='git add'
 alias gs='git status'
 alias gc='git commit'

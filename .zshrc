@@ -9,20 +9,14 @@ setopt numericglobsort     # sort filenames numerically when it makes sense
 setopt promptsubst         # enable command substitution in prompt
 
 # Plugins
-source ~/.zsh/zsh-z/zsh-z.plugin.zsh
 source ~/.zsh/zsh-you-should-use/zsh-you-should-use.plugin.zsh
-source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 source ~/.zsh/fancy-ctrl-z.zsh
+#source ~/.zsh/zsh-z/zsh-z.plugin.zsh (replaced with line 49)
+#source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh (not used anymore, built-in in Warp Terminal)
 
 [[ -f ~/.zsh/aliases.zsh ]] && source ~/.zsh/aliases.zsh
 [[ -f ~/.zsh/functions.zsh ]] && source ~/.zsh/functions.zsh
-[[ -f ~/.zsh/starship.zsh ]] && source ~/.zsh/starship.zsh
 [[ -f ~/.zsh/nvm.zsh ]] && source ~/.zsh/nvm.zsh
-
-# Load Starship
-[[ -f ~/.zsh/starship.zsh ]] && source ~/.zsh/starship.zsh
-
-eval "$(starship init zsh)"
 
 autoload -Uz +X compinit && compinit
 
@@ -30,3 +24,8 @@ autoload -Uz +X compinit && compinit
 zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
 zstyle ':completion:*' menu select
 
+export BAT_THEME=ansi
+eval "$(starship init zsh)"
+eval "$(zoxide init zsh)"
+eval "$(fzf --zsh)"
+eval "$(thefuck --alias)"

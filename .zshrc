@@ -11,7 +11,7 @@ setopt promptsubst         # enable command substitution in prompt
 # Plugins
 source ~/.zsh/zsh-you-should-use/zsh-you-should-use.plugin.zsh
 source ~/.zsh/fancy-ctrl-z.zsh
-#source ~/.zsh/zsh-z/zsh-z.plugin.zsh (replaced with line 49)
+#source ~/.zsh/zsh-z/zsh-z.plugin.zsh (replaced with line 29)
 #source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh (not used anymore, built-in in Warp Terminal)
 
 [[ -f ~/.zsh/aliases.zsh ]] && source ~/.zsh/aliases.zsh

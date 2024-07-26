@@ -1,4 +1,3 @@
-alias wget='wget2'
 alias c='clear'
 alias h='history'
 alias gh='history|grep'
@@ -8,14 +7,25 @@ alias cp='cp -vi'
 alias tree='tree -C'
 alias ping='ping -c 5'
 alias df='df -H'
+alias pbc='pbcopy'
+alias vim='nvim'
+alias gpgl='gpg --list-keys'
+
+alias p='python'
+alias p2='$HOME/.pyenv/shims/python2'
+alias p3='python3'
+
 alias reboot='sudo /sbin/reboot'
+alias rfinder='killall Finder'
+alias rdock='killall Dock'
 
 alias cat='bat --paging=never'
 alias gdu='gdu-go'
 alias ptop='bpytop'
 alias disk='gdu'
-alias rg='rg -i'
+alias grep='rg'
 alias top='htop'
+alias wget='wget2'
 
 alias dnslookup="dig +noall +answer"
 

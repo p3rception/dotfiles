@@ -33,3 +33,4 @@ cask "obsidian" # Notes
 cask "rectangle" # Window management
 cask "browserosaurus" # Browser manager
 cask "visual-studio-code"
+cask "dockdoor" # Dock previews (simply amazing)
